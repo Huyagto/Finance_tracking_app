@@ -1,6 +1,6 @@
 const loginRoute = require("./login.route");
 const registerRoute = require("./register.route");
-// const chatRoute = require("./chat.route");
+const chatRoute = require("./chat.route");
 // const statisticRoute = require("./statistic.route");
 // const transactionRoute = require("./transactions.route");
 
@@ -12,8 +12,8 @@ module.exports.index = (app) => {
   app.get("/register", registerRoute);
   app.post("/register", registerRoute);
 
-  //   app.get("/chat", chatRoute);
-  //   app.post("/chat", chatRoute);
+  app.get("/chat", chatRoute);
+  app.post("/chat", chatRoute);
 
   //   app.get("/statistic", statisticRoute);
   //   app.get("/statistic/expense-data", statisticRoute);
