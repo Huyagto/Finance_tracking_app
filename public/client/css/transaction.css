@@ -14,7 +14,6 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  border-radius: 12px;
   background-color: #f9f9f9;
   overflow: hidden;
 }
